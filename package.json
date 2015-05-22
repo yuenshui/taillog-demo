@@ -1,0 +1,16 @@
+{
+  "name": "taillog-demo",
+  "version": "0.0.1",
+  "description":"Listen to demo multiple log files",
+  "author":"yuenshui",
+  "dependencies":{
+    "socket.io":"0.*",
+    "taillog":"*"
+  },
+  "devDependencies":{},
+  "scripts":{},
+  "repository":{
+    "type":"",
+    "url":""
+  }
+}
