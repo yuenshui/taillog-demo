@@ -29,3 +29,10 @@ var CONF = {
 	"MarketAccess":"/usr/local/nginx/logs/market.access.log"
 }
 ```
+```(HTML)
+<libal>PHP error:<input type="checkbox" class="roomName" name="PHPerror"></libal>
+<libal>Node log:<input type="checkbox" class="roomName" name="NodeLog"></libal>
+<libal>Plus server access:<input type="checkbox" class="roomName" name="PlusAccess"></libal>
+<libal>Manager server access:<input type="checkbox" class="roomName" name="ManagerAccess"></libal>
+<libal>Market server access:<input type="checkbox" class="roomName" name="MarketAccess"></libal>
+```
