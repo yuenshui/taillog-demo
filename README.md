@@ -20,7 +20,7 @@ socket.io.js  是socket.io的，没任何修改。
 程序支持多个日志文件的监控和界面上可视化订阅任何一个或多个日志。
 
 Visualization subscribe to any one or more log on the program supports multiple log files to monitor and interface
-```(javascript)
+```javascript
 var CONF = {
 	"PHPerror":"/usr/local/php/var/log/php_errors.log",
 	"NodeLog":"/data/www/nodejs_plus/app.log",
@@ -29,7 +29,7 @@ var CONF = {
 	"MarketAccess":"/usr/local/nginx/logs/market.access.log"
 }
 ```
-```(HTML)
+```HTML
 <libal>PHP error:<input type="checkbox" class="roomName" name="PHPerror"></libal>
 <libal>Node log:<input type="checkbox" class="roomName" name="NodeLog"></libal>
 <libal>Plus server access:<input type="checkbox" class="roomName" name="PlusAccess"></libal>
