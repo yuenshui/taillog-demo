@@ -16,3 +16,16 @@ node  debug.js
 jquery 可以改用任意版本，只是界面上简单使用了以下。
 
 socket.io.js  是socket.io的，没任何修改。
+
+程序支持多个日志文件的监控和界面上可视化订阅任何一个或多个日志。
+
+Visualization subscribe to any one or more log on the program supports multiple log files to monitor and interface
+```(javascript)
+var CONF = {
+	"PHPerror":"/usr/local/php/var/log/php_errors.log",
+	"NodeLog":"/data/www/nodejs_plus/app.log",
+	"PlusAccess":"/usr/local/nginx/logs/plus.access.log",
+	"ManagerAccess":"/usr/local/nginx/logs/manager.access.log",
+	"MarketAccess":"/usr/local/nginx/logs/market.access.log"
+}
+```
