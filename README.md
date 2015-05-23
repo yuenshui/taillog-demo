@@ -8,7 +8,7 @@ Listen to demo multiple log files
 Online production server, the server is not convenient to open rights to technology (R & D) personnel, but they need to troubleshoot the server status allows technicians to see in real time, using this procedure will be preferred.
 
 #run：
-```shell
+```bash
 node  debug.js
 ```
 ##jquery 可以改用任意版本，只是界面上简单使用了以下。
